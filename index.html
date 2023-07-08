@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <meta charset="utf-8">
+
+    </head>
+
+    <body>
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)"
+        style="background-color: red;width:220px;height:60px;padding:40px;">Mouse Over Me
+        </div>
+
+        <script>
+            function mOver(obj) {
+                obj.innerHTML = "Thank You"
+            }
+
+            function mOut(obj) {
+                obj.innerHTML = "Mouse Over Me"
+            }
+
+        </script> 
+
+    <main>
+
+    <img src="images/pic1.jpg" id="batman">
+    <img src="images/pic2.jpg" id="bike">
+    <img src="images/pic3.jpg" id="lift">
+    <img src="images/pic4.jpg" id="raise">
+
+    </main>
+
+    <script src="animate.js"></script>
+
+    </body>
+</html>
